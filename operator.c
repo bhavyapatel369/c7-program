@@ -8,15 +8,15 @@ void main()
     printf("Enter the value of b:");
     scanf("%d",&b);
     result = a == b;
-    printf("\n%d = a == b",result,a,b);
+    printf("\n%d = %d == %d",result,a,b);
     result = a != b;
-    printf("\n%d = a != b",result,a,b);
+    printf("\n%d = %d != %d",result,a,b);
     result = a < b;
-    printf("\n%d = a < b",result,a,b);
+    printf("\n%d = %d < %d",result,a,b);
     result = a > b;
-    printf("\n%d = a > b",result,a,b);
+    printf("\n%d = %d > %d",result,a,b);
     result = a <= b;
-    printf("\n%d = a <= b",result,a,b);
+    printf("\n%d = %d <= %d",result,a,b);
     result = a >= b;
-    printf("\n%d = a >= b",result,a,b);
+    printf("\n%d = %d >= %d",result,a,b);
 }
